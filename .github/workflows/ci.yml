@@ -28,5 +28,5 @@ jobs:
     - name: Run linting
       run: yarn run lint:ci
 
-    -name: Run end-to-end
+    - name: Run end-to-end
       run: yarn run e2e
