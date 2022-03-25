@@ -26,6 +26,7 @@ jobs:
         id: yarn-cache
         with:
           path: |
+            /home/runner/.cache/Cypress/4.12.1/Cypress/Cypress
             **/node_modules
           key: yarn-cache-${{ hashFiles('**/yarn.lock')}}
 
@@ -53,6 +54,7 @@ jobs:
         id: yarn-cache
         with:
           path: |
+            /home/runner/.cache/Cypress/4.12.1/Cypress/Cypress
             **/node_modules
           key: yarn-cache-${{ hashFiles('**/yarn.lock')}}
 
@@ -84,6 +86,7 @@ jobs:
         id: yarn-cache
         with:
           path: |
+            /home/runner/.cache/Cypress/4.12.1/Cypress/Cypress
             **/node_modules
           key: yarn-cache-${{ hashFiles('**/yarn.lock')}}
 
@@ -115,6 +118,7 @@ jobs:
         id: yarn-cache
         with:
           path: |
+            /home/runner/.cache/Cypress/4.12.1/Cypress/Cypress
             **/node_modules
           key: yarn-cache-${{ hashFiles('**/yarn.lock')}}
 
