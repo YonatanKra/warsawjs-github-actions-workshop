@@ -24,3 +24,9 @@ jobs:
 
     - name: Run tests
       run: yarn run test:ci
+
+    - name: Run linting
+      run: yarn run lint:ci
+
+    -name: Run end-to-end
+      run: yarn run e2e
